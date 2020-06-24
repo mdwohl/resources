@@ -1,11 +1,10 @@
-var location = prompt('Are you located in the Puget Sound? Please answer YES or NO.')
 var welcome
 var dogs
 
 if location = 'YES' {
-    welcome = 'See links below for adoption resources.'
+    welcome = 'See links below for adoption resources.';
 } else {
-    Response.sendRedirect("https://www.google.com")
+    Response.sendRedirect("https://www.google.com");
 
     if (dogs > 4) {
         welcome = 'That is too many!';
