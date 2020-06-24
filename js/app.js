@@ -6,3 +6,4 @@ var welcome;
     } else if (dogs < 4) {
         welcome = 'That is a good number of dogs.';
     }
+    Document.write(welcome);
