@@ -1,10 +1,5 @@
-var welcome
-var dogs
-
-if location = 'YES' {
-    welcome = 'See links below for adoption resources.';
-} else {
-    Response.sendRedirect("https://www.google.com");
+var dogs = prompt('How many dogs do you want?');
+var welcome;
 
     if (dogs > 4) {
         welcome = 'That is too many!';
