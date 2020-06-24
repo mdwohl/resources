@@ -2,7 +2,7 @@ body {
     background-color:bisque
 }
 
-nav {
+nav > ul > li {
     display: inline;
     padding: 3.5px;
     border: solid 2.5px black;
