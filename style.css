@@ -1,0 +1,11 @@
+body {
+    background-color:bisque
+}
+
+nav {
+    display: inline;
+    padding: 3.5px;
+    border: solid 2.5px black;
+    margin: 5px 20px 20px 40px;
+    background-color: white;
+}
