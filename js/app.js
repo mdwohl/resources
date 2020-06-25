@@ -1,17 +1,24 @@
 'use strict'
 
 function numberDogs(){
-var dogs = prompt('How many dogs do you want?');
-var welcome;
+//var dogs = prompt('How many dogs do you want?');
 
-    if (dogs >= 4) {
-        welcome = ' dogs is too many! You may want to reconsider.';
-    } else if (dogs < 4) {
-        welcome = ' is a good number of dogs.';
-    } else {
-        alert('Please enter a valid number of dogs!');
+msg = ""
+    for (var i = 0; i < 4; i = i + 1){
+        var dogs = prompt('How many dogs do you want?')
+        if (dogs >= 4){
+            alert(parseInt(dogs) + ' dogs is too many! You may want to reconsider.')}
+        else if (dogs < 4) {
+            var msg = (parseInt(dogs) + ' is a good number of dogs.')
+
+            alert(parseInt(dogs) + ' is a good number of dogs.')
+            break;
+        }
+        else {
+           alert('Please enter a valid number of dogs!');
+        }
     }
-    document.write(dogs + welcome);
+    document.write(msg);
 }
 
 numberDogs()
